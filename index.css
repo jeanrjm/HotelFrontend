@@ -1,0 +1,152 @@
+
+body{
+	background-color: rgba(255, 355, 255)
+	margin: 0%;
+	
+
+}
+
+.superbox{
+	width: 1025px;
+	height: 600px;
+	background-color: rgba(0, 2, 191, 0);
+	margin: 0 auto;
+}
+.box{
+	margin-bottom:20px;
+	background-color: rgba(255, 255, 255, 1);
+	width: 1020px;
+	border-radius: 5px;
+	border-color: rgba(61, 99, 186, 1);
+	border-style: solid;
+	border-width: 2px;
+	overflow: hidden;
+}
+.boxtitle{
+	height: 16px;
+	width: 1020px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 14px;
+	background-color: rgba(61, 99, 186, 1);
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+	
+}
+
+.inputarea{
+	height: 56px;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 7px;
+	background-color: rgba(200, 200, 200, 0);
+	color: black;
+	font-size: 14px;
+	font-family: Arial;
+	overflow:hidden;
+	float: left;
+	
+}
+.inputareatitle{
+	height: 12px;
+	width: 100px;
+	padding-bottom: 5px;
+	background-color: rgba(200, 20, 200, 0.0);
+	color: black;
+	font-size: 12px;
+	font-family: Arial;
+	
+}
+
+.inputarearadiotitle{
+	height: 12px;
+	width: 100px;
+	margin-top:5px;
+	padding-bottom: 5px;
+	background-color: rgba(200, 20, 200, 0);
+	color: black;
+	font-size: 14px;
+	font-family: Arial;
+	float: left;
+	
+}
+
+.inputareatextbox{
+	height: 27px;
+	width: 100px;
+	padding-bottom: 0px;
+	background-color: rgba(240, 240, 240,0);
+	color: rgba(40, 40, 40,1);
+	font-size: 14px;
+	font-family: Arial;
+	border-radius: 3px;
+	border-color: rgba(190, 190, 190, 1);
+	border-style: solid;
+	border-width: 1px;
+	
+}
+
+#titletable{
+	height: 34px;
+	width: 900px;
+	margin-top:10px;
+	margin-left:60px;
+	margin-right:60px;
+	background-color: rgba(240, 2, 240,0);
+	float: left;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(170, 170, 170,1);
+}
+
+.tableline{
+	height: 34px;
+	width: 900px;
+	margin-left:60px;
+	margin-right:60px;
+	background-color: rgba(240, 2, 240,0);
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(190, 190, 190,1);
+}
+
+.titletableelement{
+	padding-top:10px;
+	padding-bottom:10px;
+	height: 14px;
+	width: 300px;
+	background-color: rgba(2, 2, 240,0);
+	float: left;
+	font-size: 14px;
+	font-family: Arial;
+	text-align:center;
+	font-weight: bold;
+}
+
+.tableelement{
+	padding-top:10px;
+	padding-bottom:10px;
+	height: 14px;
+	width: 300px;
+	background-color: rgba(2, 2, 240,0);
+	float: left;
+	font-size: 14px;
+	font-family: Arial;
+	
+	
+}
+
+.inputareatextbox:focus {
+ 
+	outline-width: 0;
+	
+}
+
+
+
+
+	
+	
+	

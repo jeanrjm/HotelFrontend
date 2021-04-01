@@ -1,0 +1,72 @@
+<head>
+	<title>Hotel</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="index.js"></script>
+</head>
+
+<body>
+
+<div id="sbox" class="superbox">
+	<div id="box1" class="box" style="height: 200px;">
+		<div id="boxtitle1" class="boxtitle">
+		Novo check-in
+		</div>
+		<div id="ia1" class="inputarea" style="width: 500px;">
+			<div id="ia1title" class="inputareatitle" style="width: 500px;">
+			Data/Hora de entrada
+			</div>
+			<input type="datetime-local" id="txt1" name="txt1" class="inputareatextbox" style="width: 500px;">
+		</div>
+		<div id="ia2" class="inputarea" style="width: 500px;">
+			<div id="ia2title" class="inputareatitle" style="width: 500px;">
+			Data/Hora de saida
+			</div>
+			<input type="datetime-local" id="txt1" name="txt1" class="inputareatextbox" style="width: 500px;">
+		</div>
+		<div id="ia3" class="inputarea" style="width: 500px;">
+			<div id="ia3title" class="inputareatitle" style="width: 500px;">
+			Pessoa
+			</div>
+			<input type="text" id="txt1" name="txt1" class="inputareatextbox" style="width: 500px;">
+		</div>
+		<div id="ia4" class="inputarea" style="width: 500px;">
+			<div id="ia4title" class="inputareatitle" style="width: 500px;"></div>
+			<input id="radio1" type="radio" style="margin-top: 7px; float: left;">
+			<div id="rad1" class="inputarearadiotitle" style="width: 470px;">Possui veiculo</div>
+			
+		</div>
+	</div> 
+
+	<div id="box2"  class="box" style="height: 300px;" ">
+		<div id="boxtitle1" class="boxtitle">
+		Consultas
+		</div>
+		
+		<div id="ia5" class="inputarea" style="width: 200px;">
+			<div id="ia5title" class="inputareatitle" style="width: 200px;"></div>
+			<input id="radio2" type="radio" style="margin-top: 7px; float: left;">
+			<div id="rad2" class="inputarearadiotitle" style="width: 170px;">Pessoas ainda presentes</div>
+			
+		</div>
+		<div id="ia5" class="inputarea" style="width: 400px;">
+			<div id="ia5title" class="inputareatitle" style="width: 270px;"></div>
+			<input id="radio2" type="radio" style="margin-top: 7px; float: left;">
+			<div id="rad2" class="inputarearadiotitle" style="width: 250px;">Pessoas que já deixaram o hotel</div>
+			
+		</div>
+		<div id="titletable" >
+			<div class="titletableelement" >Nome</div>
+			<div class="titletableelement" >Documento</div>
+			<div class="titletableelement" >Valor gasto(R$)</div>
+		</div>
+		<div ng-app="" ng-init="nome='João da Silva';documento=123456789;valor=1939;" class="tableline" >
+			<div class="tableelement" >{{nome}}</div>
+			<div class="tableelement" >{{documento}}</div>
+			<div class="tableelement" >{{valor}}.00</div>
+		</div>
+	</div> 
+</div> 
+
+</body>
